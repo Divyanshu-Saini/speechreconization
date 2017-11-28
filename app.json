@@ -1,0 +1,21 @@
+{
+  "name": "speechchatbot",
+  "description": "chatbot which uses web speech api for chatting",
+  "repository": "https://github.com/Divyanshu-Saini/speechreconization.git",
+  "keywords": [
+    "API.ai",
+    "nodejs",
+    "web_speech_api"
+  ],
+  "env": {
+    "APIAI_TOKEN": {
+      "description": "API.ai Client access token",
+      "value": ""
+    },
+    "APIAI_SESSION_ID": {
+      "description": "An arbitrary string",
+      "value": ""
+    }
+  },
+  "image": "heroku/nodejs"
+}

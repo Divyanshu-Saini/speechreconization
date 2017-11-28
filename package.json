@@ -1,0 +1,34 @@
+{
+  "name": "speechchatbot",
+  "version": "1.0.0",
+  "description": "chatbot which uses web speech api for chatting",
+  "main": "main.js",
+  "dependencies": {
+    "uuid": "^3.1.0",
+    "apiai": "^4.0.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divyanshu-Saini/speechreconization.git"
+  },
+  "keywords": [
+    "API.ai",
+    "nodejs",
+    "web_speech_api"
+  ],
+  
+  "author": "Diyanshu Saini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divyanshu-Saini/speechreconization/issues"
+  },
+  "homepage": "https://github.com/Divyanshu-Saini/speechreconization#readme"
+}
