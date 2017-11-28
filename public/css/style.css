@@ -8,7 +8,7 @@ body {
   margin: 0;
   font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 300;
-  background: #f7f7f7 url(../images/geometry.png) 0 0 no-repeat;
+  background: #f7f7f7 url(../images/weather.jpg) 0 0 no-repeat;
   background-size: cover;
   color: #333;
 }
@@ -32,12 +32,12 @@ h1, h2, h3 {
   text-align: center;
 }
 h1 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 3em;
 }
 h2 {
-  font-weight: 300;
-  margin-top: 0.5em;
+  font-weight: 400;
+  margin-top: 0.8em;
 }
 section {
   margin: 1.5em auto;
@@ -55,8 +55,8 @@ button {
   margin: 4em auto 3em;
   text-align: center;
   color: #fff;
-  background: linear-gradient(180deg, #39C2C9 0%, #3FC8C9 80%, #3FC8C9 100%);
-  box-shadow: 2px 5px 30px rgba(63, 200, 201, .4);
+  background: linear-gradient(180deg, #D32222 0%, #38D112 80%, #6510D4 100%);
+  box-shadow: 2px 5px 30px rgba(42, 23, 209, 0.4);
 
   will-change: transform, filter;
   transition: all 0.3s ease-out;
@@ -88,4 +88,8 @@ button:focus {
 }
 .fa-github::before {
     content: "\f09b";
+}
+p{
+  font-size: 20px,
+
 }
