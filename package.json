@@ -4,15 +4,16 @@
   "description": "chatbot which uses web speech api for chatting",
   "main": "main.js",
   "dependencies": {
-    "uuid": "^3.1.0",
     "apiai": "^4.0.2",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
-    "socketio": "^1.0.0"
+    "javascript-to-typescript": "^1.0.2",
+    "socketio": "^1.0.0",
+    "uuid": "^3.1.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start":"node main.js",
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +25,6 @@
     "nodejs",
     "web_speech_api"
   ],
-  
   "author": "Diyanshu Saini",
   "license": "ISC",
   "bugs": {

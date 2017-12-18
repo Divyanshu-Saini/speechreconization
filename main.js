@@ -1,13 +1,13 @@
 'use strict';
 const uuid =require('uuid/v1');
 
-const APIAI_TOKEN = "b46d0409224d4b91ab0a658eecac1572";
+const APIAI_TOKEN = "81bcf2482e904f5aa308b3c6ca14052f";
 const APIAI_SESSION_ID = uuid();
 
 const express = require('express');
 const app = express();
 
-app.use(express.static(__dirname + '/views')); // html
+app.use(express.static(__dirname + '/'));
 app.use(express.static(__dirname + '/public')); // js, css, images
 
 const server = app.listen(process.env.PORT || 5000, () => {
